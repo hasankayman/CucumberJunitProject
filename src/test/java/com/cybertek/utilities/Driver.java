@@ -50,7 +50,7 @@ public class Driver {
                         //ChromeOptions chromeOptions = new ChromeOptions();
                         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
                         desiredCapabilities.setBrowserName("chrome");
-                        URL gridUrl = new URL("http://100.25.194.184:4444/wd/hub");
+                        URL gridUrl = new URL("http://35.171.169.218:4444/wd/hub");
                         driver = new RemoteWebDriver(gridUrl, desiredCapabilities);
                     } catch (MalformedURLException e) {
                         e.printStackTrace();
