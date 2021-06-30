@@ -1,4 +1,4 @@
-@wikiscenariooutline @fail
+@wikiscenariooutline @fail @smoke
 Feature: Wikipedia Search Functionality
   Agile story: As a user, I should be able to make search from Wikipedia
 

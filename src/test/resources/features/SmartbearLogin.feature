@@ -1,4 +1,4 @@
-@smartbearLogin
+@smartbearLogin @smoke
 Feature: Smartbear Login
   Agile Story: As a user, I should be able to login when I am on Smartbear login page.
 
