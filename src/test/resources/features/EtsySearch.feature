@@ -1,4 +1,4 @@
-@etsy @smoke
+@etsy
 Feature: ETSY Search
   Agile story: User should be able to enter search keywords and see
   relevant results in the page and in the title
@@ -10,7 +10,7 @@ Feature: ETSY Search
     Then User should see title is as expected
     #expected : Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone
 
-
+  @smoke
   Scenario: Etsy title verification after search
     Then User searches a "Wooden spoon" in Etsy search box
     And User clicks etsy search button

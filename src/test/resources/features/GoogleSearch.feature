@@ -1,4 +1,4 @@
-@googleSearch @smoke
+@googleSearch
 Feature: Google Search
   Agile Story: As a user, I should be able to search when I am on Google search page.
 
@@ -21,7 +21,7 @@ Feature: Google Search
     Then User should see title contains the "keyword"
     Then Browser will be automatically closed
 
-  @about
+  @about @smoke
   Scenario: Google search page -About- link title
     Then User should see About link
     And User clicks About link

@@ -1,4 +1,4 @@
-@datatable @smoke
+@datatable
 Feature: Example of how to implement data table
 
   Scenario: Something happens
