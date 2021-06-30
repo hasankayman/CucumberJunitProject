@@ -1,4 +1,4 @@
-@scenariooutline
+@scenariooutline @smoke
 Feature: Google Search with Scenario Outline
   Agile Story: As a user, I should be able to search when I am on Google search page.
 
