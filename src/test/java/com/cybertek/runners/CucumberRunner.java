@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt"
         },
         features = "src/test/resources/features",
-        glue = "com/cybertek/step_definitions"
+        glue = "com/cybertek/step_definitions",
         //dryRun = true,  //won't run actual implementation, it will compare feature and step definitions to pass
 
         //tags = "@login and not @admin"
@@ -28,6 +28,7 @@ import org.junit.runner.RunWith;
         //tags = "@etsy"
         //tags = "@wikipedia"
         //tags = "@fail"
+        publish = true
 
 
 )
