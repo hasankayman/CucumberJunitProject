@@ -14,7 +14,7 @@ public class EtsySearchStepDefinitions {
 
     @Given("User is on the etsy home page")
     public void user_is_on_the_etsy_home_page() {
-        Driver.getDriver().get("https://www.etsy.com");
+        Driver.getDriver().get("https://www.etsy.com/");
     }
     @Then("User should see title is as expected")
     public void user_should_see_title_is_as_expected() {

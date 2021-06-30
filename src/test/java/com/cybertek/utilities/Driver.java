@@ -62,7 +62,7 @@ public class Driver {
                     try {
                         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
                         desiredCapabilities.setBrowserName("firefox");
-                        URL gridUrl = new URL("http://100.25.194.184:4444/wd/hub");
+                        URL gridUrl = new URL("http://35.171.169.218:4444/wd/hub");
                         driver = new RemoteWebDriver(gridUrl, desiredCapabilities);
                     } catch (MalformedURLException e) {
                         e.printStackTrace();
