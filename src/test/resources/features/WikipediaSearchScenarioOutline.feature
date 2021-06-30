@@ -17,6 +17,6 @@ Feature: Wikipedia Search Functionality
       | Steve Jobs    | Steve Jobs - Wikipedia    | Steve Jobs         | Steve Jobs          |
       | Eddie Murphy  | Eddie Murphy - Wikipedia  | Eddie Murphy       | Eddie Murphy        |
       | Gordon Ramsay | Gordon Ramsay - Wikipedia | Gordon Ramsay      | Gordon Ramsay       |
-      | Bruce Lee     | Bruce Lee - Wikipedia     | Bruce Le          | Bruce Lee           |
+      | Bruce Lee     | Bruce Lee - Wikipedia     | Bruce Lee          | Bruce Lee           |
       | Keanu Reeves  | Keanu Reeves - Wikipedia  | Keanu Reeves       | Keanu Reeves        |
 
