@@ -1,8 +1,8 @@
-@wikiscenariooutline @fail @smoke
+@wikiscenariooutline @fail
 Feature: Wikipedia Search Functionality
   Agile story: As a user, I should be able to make search from Wikipedia
 
-  @screenshot
+  @smoke
   Scenario Outline:
     Given User is on the wikipedia home page
     When User types "<searchValue>" in the wiki search box

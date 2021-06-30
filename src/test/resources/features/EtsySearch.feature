@@ -10,6 +10,7 @@ Feature: ETSY Search
     Then User should see title is as expected
     #expected : Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone
 
+  @smoke
   Scenario: Etsy title verification after search
     Then User searches a "Wooden spoon" in Etsy search box
     And User clicks etsy search button
