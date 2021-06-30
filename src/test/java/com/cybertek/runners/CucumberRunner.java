@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
         //tags = "@googleSearch"
         //tags = "@smartbearLogin"
         //tags = "@etsy"
-        tags = "@wikipedia",
+        //tags = "@wikipedia",
         //tags = "@fail"
         publish = true
 
