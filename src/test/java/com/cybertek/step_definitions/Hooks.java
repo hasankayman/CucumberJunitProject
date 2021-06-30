@@ -27,12 +27,12 @@ public class Hooks {
         // System.out.println("<----Browser Setup----->");
     }
 
-    @After
-    public void afterScenario(Scenario scenario){
-        System.out.println("scenario.getName() = " + scenario.getName());
-        System.out.println("scenario.getSourceTagNames() = " + scenario.getSourceTagNames());
-        System.out.println("scenario.isFailed() = " + scenario.isFailed());
-    }
+//    @After
+//    public void afterScenario(Scenario scenario){
+//        System.out.println("scenario.getName() = " + scenario.getName());
+//        System.out.println("scenario.getSourceTagNames() = " + scenario.getSourceTagNames());
+//        System.out.println("scenario.isFailed() = " + scenario.isFailed());
+//    }
 
 //    @After(order = 4)
 //    public void tearDownScenario(){
