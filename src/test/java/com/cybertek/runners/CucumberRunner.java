@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
         //tags = "@login and not @student"
         //tags = "@student"
         //tags = "@login and @sunday and not @admin"
-        //tags = "@student or @admin"
+        tags = "@student or @admin",
         //tags = "@search and @keyword"
         //tags = "@about"
         //tags = "@googleSearch"
