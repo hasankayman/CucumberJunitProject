@@ -17,3 +17,4 @@ Feature: Wikipedia Search Functionality
   #  Scenario: I should see search keyword in the image header
     Then User sees "Steve Jobs" in the image header
 
+    Then Browser will be automatically closed
